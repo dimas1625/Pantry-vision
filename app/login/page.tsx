@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -76,6 +77,17 @@ export default function Home() {
               Login
             </button>
           </form>
+
+          {/* REGISTER OPTION */}
+          <div className="mt-6 text-center text-sm text-gray-400">
+            <span>Belum punya akun? </span>
+            <Link 
+              href="/register" 
+              className="text-blue-400 hover:text-blue-300 font-medium transition underline-offset-4 hover:underline"
+            >
+              Daftar Sekarang
+            </Link>
+          </div>
 
           <p className="text-xs text-gray-500 mt-8">
             © 2026 PantryVision.
