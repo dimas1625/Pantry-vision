@@ -43,7 +43,7 @@ export default function DashboardPage() {
           </a>
           
           <p className="px-6 text-xs font-bold text-gray-400 mb-2 mt-8">Akun</p>
-          <a href="#" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+          <a href="/profile" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
             <span className="mr-3">Profile</span> 
           </a>
           <a href="#" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
