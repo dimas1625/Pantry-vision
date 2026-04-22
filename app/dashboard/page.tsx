@@ -66,6 +66,23 @@ export default function DashboardPage() {
           <Link href="/riwayat" className={navItemStyle('/riwayat')}>
             <History size={20}/> <span className="font-bold text-sm tracking-tight">Riwayat Scan</span>
           </Link>
+        <nav className="flex-1 py-6">
+          <p className="px-6 text-xs font-bold text-green-600 mb-2">Utama</p>
+          <a href="#" className="flex items-center px-6 py-3 bg-gray-100 border-l-4 border-green-600 text-green-700 font-bold">
+            <span className="mr-3">Dashboard</span>
+          </a>
+          <a href="/inventory" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+            <span className="mr-3">Inventori</span> 
+          </a>
+          <a href="#" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+            <span className="mr-3">Sensor</span> 
+          </a>
+          <a href="/scan" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+            <span className="mr-3">Scan</span> 
+          </a>
+          <a href="/riwayat" className="flex items-center px-6 py-3 text-gray-600 hover:bg-gray-50 font-medium">
+            <span className="mr-3">Riwayat Scan</span> 
+          </a>
           
           <div className="pt-8 border-t border-slate-50 mt-4">
             <p className="px-4 text-[10px] font-black text-slate-400 mb-4 uppercase tracking-[0.2em]">Akun</p>
