@@ -185,7 +185,7 @@ export default function ScanPage() {
                 Pindai bahan <br/> <span className="text-black-600">makananmu</span> sekarang.
               </h2>
               <p className="text-lg font-bold text-slate-400 mb-8 leading-relaxed">
-                Unggah foto untuk melihat tingkat kesegaran bahan secara langsung menggunakan teknologi AI Vision kami.
+                Unggah foto untuk melihat tingkat kesegaran bahan secara langsung.
               </p>
             </div>
 

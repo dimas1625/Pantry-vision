@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import { 
   LayoutDashboard, Package, Activity, Scan, 
-  History, User, LogOut, ChevronDown, ChevronRight, Search , AlertCircle
+  History, User, LogOut, ChevronDown, ChevronRight, Search, AlertCircle
 } from "lucide-react";
 
 const dummyInventory = [
